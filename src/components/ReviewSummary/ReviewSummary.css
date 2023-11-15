@@ -1,0 +1,118 @@
+.ReviewSummary__container-review-summary {
+  display: flex;
+}
+
+.ReviewSummary__left-sec,
+.ReviewSummary__right-sec {
+  padding: 0px 20px;
+}
+
+.ReviewSummary__left-sec {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReviewSummary__left-sec * {
+  text-decoration: none;
+}
+
+.ReviewSummary__left-sec .ReviewSummary__container-reviews-ratings > span {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.8rem;
+}
+
+.ReviewSummary__left-sec .ReviewSummary__container-reviews-ratings > span {
+  color: #007185;
+}
+
+.ReviewSummary__left-sec .ReviewSummary__container-reviews-ratings:hover > span {
+  
+  text-decoration: underline;
+  color: #c7511f;
+}
+
+.ReviewSummary__avg-rating {
+
+  font-size: 2rem !important;
+  color: black !important;
+  font-weight: 600;
+  margin-bottom: 10px;
+  
+}
+
+.ReviewSummary__container-review-graph {
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+
+  margin: 3px 0px;
+}
+
+.ReviewSummary__review-star {
+  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: #007185;
+}
+
+.ReviewSummary__review-star:hover {
+  
+  text-decoration: underline;
+  color: #c7511f;
+}
+
+.ReviewSummary__review-star span {
+
+  text-align: center;
+  width: 15px;
+  font-size: 0.75rem;
+}
+
+.ReviewSummary__review-graph .ReviewSummary__graph-bar {
+
+  width: 250px;
+  height: 6px;
+
+  background-color: #ededed;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.ReviewSummary__review-graph .ReviewSummary__graph-fill {
+
+  width: 250px;
+  height: 6px;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.ReviewSummary__review-count {
+
+  font-size: 0.75rem;
+  color: #878787;
+}
+
+@media (max-width: 720px) {
+
+  .ReviewSummary__container-review-summary {
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+} 

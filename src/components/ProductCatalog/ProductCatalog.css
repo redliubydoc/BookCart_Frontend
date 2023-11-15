@@ -1,0 +1,153 @@
+.ProductCatalog__container-product-catalog, 
+.ProductCatalog__container-product-catalog * {
+  /* border: 1px solid red; */
+}
+
+.ProductCatalog__container-product-catalog {
+
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+}
+
+.ProductCatalog__container-product-card {
+
+  position: sticky;
+  top: 70px;
+  
+  /* border: 1px solid lightgray; */
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+}
+
+.ProductCatalog__container-product-card .ProductCatalog__card-img {
+
+  width: 300px;
+  height: 430px;
+  /* object-fit: contain; */
+  border-radius: 2px;
+
+  border: 1px solid lightgray;
+  padding: 15px;
+}
+
+.ProductCatalog__container-product-card .ProductCatalog__card-btn {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 2px;
+
+  background-color: tomato;
+  color: white;
+  border: none;
+  
+  text-transform: uppercase;
+  font-weight: 500;
+  
+  cursor: pointer;
+}
+
+.ProductCatalog__container-product-card .ProductCatalog__card-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.ProductCatalog__container-product-details {
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  padding: 8px 20px 20px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+}
+
+.ProductCatalog__container-book-rating {
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ProductCatalog__book-rating-separator {
+  color: goldenrod;
+}
+
+.ProductCatalog__book-title {
+
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 2rem;
+
+  margin-top: 8px;
+}
+
+.ProductCatalog__book-author-link {
+
+  text-decoration: none;
+  color: #007185;
+}
+
+.ProductCatalog__book-author-link:hover,
+.ProductCatalog__book-rating-count:hover {
+
+  text-decoration: underline;
+  color: #c7511f;
+}
+
+.ProductCatalog__book-rating-count {
+
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.ProductCatalog__book-price {
+
+  font-family: calibri;
+  display: flex;
+  align-items: center;
+  font-size: 2rem !important;
+  font-weight: 500;
+  color: #198754;
+}
+
+.ProductCatalog__product-details-separator {
+
+  border-bottom: 1px solid lightgrey;
+  margin: 10px 0px;
+}
+
+.col-specification-label,
+.col-specification-value {
+
+  vertical-align: super;
+  padding: 5px 0px;
+}
+
+.col-specification-label {
+
+  color: #878787;
+  width: 200px;
+}
+
+.col-specification-value > span {
+  word-break: break-word;
+}
+
+.col-specification-value .link {
+
+  margin-right: 5px;
+  text-decoration: none;
+  color: #007185;
+}
+
+.col-specification-value .link:hover {
+  text-decoration: underline;
+  color: #c7511f;
+}

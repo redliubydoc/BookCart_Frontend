@@ -1,0 +1,74 @@
+{
+	"Fantasy" : {
+		"name": "Fantasy"
+	},
+	"Adventure" : {
+		"name": "Adventure"
+	},
+	"Romance" : {
+		"name": "Romance"
+	},
+	"Contemporary" : {
+		"name": "Contemporary"
+	},
+	"Dystopian" : {
+		"name": "Dystopian"
+	},
+	"Mystery" : {
+		"name": "Mystery"
+	},
+	"Horror" : {
+		"name": "Horror"
+	},
+	"Thriller" : {
+		"name": "Thriller"
+	},
+	"Paranormal" : {
+		"name": "Paranormal"
+	},
+	"Historical fiction" : {
+		"name": "Historical"
+	},
+	"Science Fiction" : {
+		"name": "Science"
+	},
+	"Children’s" : {
+		"name": "Children’s"
+	},
+	"Memoir" : {
+		"name": "Memoir"
+	},
+	"Cooking" : {
+		"name": "Cooking"
+	},
+	"Art" : {
+		"name": "Art"
+	},
+	"Self_Help_Personal" : {
+		"name": "Self-help / Personal"
+	},
+	"Development" : {
+		"name": "Development"
+	},
+	"Motivational" : {
+		"name": "Motivational"
+	},
+	"Health" : {
+		"name": "Health"
+	},
+	"History" : {
+		"name": "History"
+	},
+	"Travel" : {
+		"name": "Travel"
+	},
+	"Guide_How_To" : {
+		"name": "Guide / How-to"
+	},
+	"Families_Relationship" : {
+		"name": "Families & Relationships"
+	},
+	"Humor": {
+		"name": "Humor"
+	}
+}

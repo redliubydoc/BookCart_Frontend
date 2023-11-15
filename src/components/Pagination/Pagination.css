@@ -1,0 +1,40 @@
+.Pagination__container-pagination {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pagination__pagination {
+
+  display: flex;
+  justify-self: center;
+  align-items: center;
+
+  list-style: none;
+}
+
+.Pagination__pagination-action {
+  
+  display: flex;
+  justify-self: center;
+  align-items: center;
+
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  color: #2b80e2;;
+
+  transition-timing-function: ease-in;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+
+  cursor: pointer;
+
+  padding: 2px 5px;
+  margin: 1px;
+}
+
+.Pagination__pagination-action:hover {
+   
+  background-color: lightgrey;
+}

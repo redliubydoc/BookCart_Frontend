@@ -1,0 +1,68 @@
+[
+  {
+    "isbn": "9780062679130",
+    "thumbnail": "/assets/books/9780062679130/thumbnail.jpeg",
+    "file": "public/assets/books/9780062679130/book.epub",
+    "price": "100" 
+  },
+  {
+    "isbn": "9780307237699",
+    "thumbnail": "/assets/books/9780307237699/thumbnail.jpeg",
+    "file": "public/assets/books/9780307237699/book.epub",
+    "price": "200" 
+  },
+  {
+    "isbn": "9780316187183",
+    "thumbnail": "/assets/books/9780316187183/thumbnail.jpeg",
+    "file": "public/assets/books/9780316187183/book.epub",
+    "price": "250" 
+  },
+  {
+    "isbn": "9780316251303",
+    "thumbnail": "/assets/books/9780316251303/thumbnail.jpeg",
+    "file": "public/assets/books/9780316251303/book.epub",
+    "price": "50" 
+  },
+  {
+    "isbn": "9780316256575",
+    "thumbnail": "/assets/books/9780316256575/thumbnail.jpeg",
+    "file": "public/assets/books/9780316256575/book.epub",
+    "price": "400" 
+  },
+  {
+    "isbn": "9780316256577",
+    "thumbnail": "/assets/books/9780316256577/thumbnail.jpeg",
+    "file": "public/assets/books/9780316256577/book.epub",
+    "price": "1000" 
+  },
+  {
+    "isbn": "9780316270724",
+    "thumbnail": "/assets/books/9780316270724/thumbnail.jpeg",
+    "file": "public/assets/books/9780316270724/book.epub",
+    "price": "1000" 
+  },
+  {
+    "isbn": "9780316420013",
+    "thumbnail": "/assets/books/9780316420013/thumbnail.jpeg",
+    "file": "public/assets/books/9780316420013/book.epub",
+    "price": "450" 
+  },
+  {
+    "isbn": "9780316453691",
+    "thumbnail": "/assets/books/9780316453691/thumbnail.jpeg",
+    "file": "public/assets/books/9780316453691/book.epub",
+    "price": "1500" 
+  },
+  {
+    "isbn": "9780316477533",
+    "thumbnail": "/assets/books/9780316477533/thumbnail.jpeg",
+    "file": "public/assets/books/9780316477533/book.epub",
+    "price": "21000" 
+  },
+  {
+    "isbn": "9780316477536",
+    "thumbnail": "/assets/books/9780316477536/thumbnail.jpeg",
+    "file": "public/assets/books/9780316477536/book.epub",
+    "price": "600" 
+  }
+]

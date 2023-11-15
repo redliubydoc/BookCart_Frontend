@@ -1,0 +1,21 @@
+.RatingsAndReviews__container-ratings-header {
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.RatingsAndReviews__header {
+
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 2rem;
+
+  margin-bottom: 15px;
+}
+
+.RatingsAndReviews__pagination {
+  margin-top: 20px;
+}
+
+.RatingsAndReviews__pagination * {
+  color: gray !important
+}

@@ -1,0 +1,54 @@
+* {
+  /* border: 1px solid red; */
+}
+
+.Home__container-home {
+  display: flex;
+}
+
+.Home__container-main {
+  
+  width: 100%;
+  height: 100%;
+}
+
+.Home__home-filter-panel {
+  
+  flex-shrink: 0;
+  flex-grow: 0;
+
+  position: sticky;
+  top: 50px;
+}
+
+
+.Home__home-product-list {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+  padding: 20px;
+}
+
+.Home__home-header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px 0px 50px;
+  gap: 10px;
+  padding: 5px;
+  /* border: 1px solid gray; */
+}
+
+.Home__header-dropdown {
+
+  width: 150px !important;
+}
+
+.Home__home-pagination {
+  padding: 30px 20px 50px 20px;
+}
