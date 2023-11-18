@@ -30,12 +30,16 @@ function FilterPanel({ id, className }) {
       <div className="container-main">
         <div className="container-filter">
           <span className="filter-label">Language</span> 
-          <Dropdown items={getLanguageItems(languages)}></Dropdown>
+          <Dropdown items={getLanguageItems(languages)} 
+            defaultItem={{ value: "all", text: "All" }}
+            onSelect={() => {}}></Dropdown>
         </div>
 
         <div className="container-filter">
           <span className="filter-label">Genre</span> 
-          <Dropdown items={getGenreItems(genres)}></Dropdown>
+          <Dropdown items={getGenreItems(genres)} 
+            defaultItem={{ value: "all", text: "All" }}
+            onSelect={() => {}}></Dropdown>
         </div>
 
         <div className="container-filter">

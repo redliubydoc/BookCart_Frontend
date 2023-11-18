@@ -4,16 +4,14 @@ import { Utils } from '../../utils';
 
 import "./Dropdown.css";
 
-function Dropdown({ className, id, items }) {
+function Dropdown({ className, id, items, defaultItem, onSelect }) {
 
   const [showDropdown, setShowDropdown] = useState(false);
-  const [selectedValue, setSelectedValue] = useState({ value: "all", text: "All" });
+  const [selectedValue, setSelectedValue] = useState(defaultItem ? defaultItem : {});
   const dropdownRef = useRef();
 
   useEffect(function () {
     console.log("Dropdown :: useEffect");
-
-    setSelectedValue(items.length ? items[0] : { value: "all", text: "All" });
 
     document.addEventListener("click", closeDropdown);
     return (() => document.removeEventListener("click", closeDropdown));
@@ -56,6 +54,7 @@ function Dropdown({ className, id, items }) {
     console.log("Dropdown :: doSelect");
 
     setSelectedValue(JSON.parse(e.target.getAttribute("value")));
+    onSelect(JSON.parse(e.target.getAttribute("value")));
   }
 }
 

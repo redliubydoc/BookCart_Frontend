@@ -1,10 +1,6 @@
-import { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import moment from "moment";
-import StarIcon from "@mui/icons-material/Star";
-import StarHalfIcon from "@mui/icons-material/StarHalf";
-import StarBorderIcon from "@mui/icons-material/StarBorder";
 
 import "./ProductCatalog.css";
 import RatingsAndReviews from "../RatingsAndReviews/RatingsAndReviews";
@@ -12,8 +8,6 @@ import FiveStar from "../FiveStar/FiveStar";
 import { Utils } from "../../utils";
 
 function ProductCatalog({ book }) {
-
-  const [reviews, setReviews] = useState([]);
 
   return (
     <div className="ProductCatalog__container-product-catalog">
@@ -29,9 +23,8 @@ function ProductCatalog({ book }) {
           </span> 
           <span className="ProductCatalog__container-book-rating">
             <HashLink className="ProductCatalog__book-rating-count"
-              to="#rating-review-section"
-              scroll={elem => Utils.scrollToTargetAdjusted(elem, 70)}
-              >192 Ratings</HashLink>
+              to="#rating-review-section" 
+              scroll={elem => Utils.scrollToTargetAdjusted(elem, 70)}>192 Ratings</HashLink>
             <span className="ProductCatalog__book-rating-separator">|</span>
             <FiveStar rating={4.5}/>
           </span>

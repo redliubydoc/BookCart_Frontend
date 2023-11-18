@@ -1,0 +1,58 @@
+.ReviewPage__container-page-review {
+  padding: 20px;
+}
+
+.ReviewPage__container-page-review-header {
+
+  position: relative;
+
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.ReviewPage__page-review-header {
+
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.ReviewPage__page-review-header-content {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.ReviewPage__page-review-header-content > .dropdown {
+
+  width: 150px;
+}
+
+.ReviewPage__page-review-header-back {
+
+  position: absolute;
+  top: 20px;
+  right: 15px;
+
+  cursor: pointer;
+}
+
+.ReviewPage__page-review-header-back,
+.ReviewPage__page-review-header-back a,
+.ReviewPage__page-review-header-back .ico {
+
+  display: block;
+  font-size: 2.5rem;
+}
+
+.ReviewPage__page-review-header-separator {
+
+  border-bottom: 1px solid lightgrey;
+  margin: 15px 0px;
+}
+
+.ReviewPage__page-review-container-footer {
+
+  margin-top: 20px;
+}

@@ -51,7 +51,7 @@
 .ReviewSummary__container-review-graph {
 
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
 
@@ -110,7 +110,7 @@
   .ReviewSummary__container-review-summary {
 
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;

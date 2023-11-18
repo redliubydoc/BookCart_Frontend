@@ -1,0 +1,5 @@
+export const Constants = {
+
+  NEGATIVE_INFINITY: -999999,
+  POSITIVE_INFINITY: +999999
+}

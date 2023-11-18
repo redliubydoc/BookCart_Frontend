@@ -97,7 +97,6 @@ function Navbar({ className, id }) {
     </nav>
   );
 
-
   function toggleSearchDropdown(e) {
 
     e.stopPropagation();

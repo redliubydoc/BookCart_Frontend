@@ -12,4 +12,3 @@ function ReviewList({ reviews }) {
 }
 
 export default ReviewList;
-

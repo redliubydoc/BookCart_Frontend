@@ -18,7 +18,7 @@ export const Utils = {
 
   scrollToTargetAdjusted: function(element, offset) {
     window.scrollTo({
-      top: element.getBoundingClientRect().top + window.screenY - offset,
+      top: element.getBoundingClientRect().top - offset,
       behavior: "smooth"
     });
   }

@@ -12,8 +12,6 @@ function Home() {
 
   useEffect(function () {
 
-
-
     fetch(`${window.location.origin}/mock-data/books.json`)
       .then(response => response.json())
       .then(data => setBooks(data));
@@ -30,12 +28,16 @@ function Home() {
               <small>{books.length > 0 ? `1 - 20 of 100 results` : `No result found`}</small>
             </span>
       
-            <Dropdown  className="Home__header-dropdown" items={[
-              { value: "PRICE_LH", text: "Price (Low to High)" },
-              { value: "PRICE_HL", text: "Price (High to Low)" },
-              { value: "RATING", text: "Rating" },
-              { value: "RELEASE_DT", text: "Date of Release" },
-            ]}></Dropdown>
+            <Dropdown  className="Home__header-dropdown"
+              defaultItem={{ value: "all", text: "All" }}
+              onSelect={() => {}}
+              items={[
+                { value: "PRICE_LH", text: "Price (Low to High)" },
+                { value: "PRICE_HL", text: "Price (High to Low)" },
+                { value: "RATING", text: "Rating" },
+                { value: "RELEASE_DT", text: "Date of Release" },
+              ]}>
+            </Dropdown>
           </div>
 
           <div className="Home__home-product-list">
