@@ -6,7 +6,7 @@ import FavoriteTwoToneIcon from '@mui/icons-material/FavoriteTwoTone';
 import ManageSearchIcon from '@mui/icons-material/ManageSearch';
 import ArrowDropDownTwoToneIcon from '@mui/icons-material/ArrowDropDownTwoTone';
 import BookTwoToneIcon from '@mui/icons-material/BookTwoTone';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 
 import "./Navbar.css";
@@ -16,6 +16,7 @@ function Navbar({ className, id }) {
 
   const [showSearchDropdown, setShowSearchDropdown] = useState(false);
   const searchDropdownRef = useRef();
+  const navigate = useNavigate();
 
 
   useEffect(function () {
@@ -30,7 +31,7 @@ function Navbar({ className, id }) {
 
   return (
     <nav id={id} className={`navbar ${className}`}>
-      <span className="navbar-brand">Book <BookTwoToneIcon/> Cart</span>
+      <span className="navbar-brand" onClick={() => navigate("/")}>Book <BookTwoToneIcon/> Cart</span>
       
       <div className="navbar-search">
         <div className="search-dropdown"

@@ -27,16 +27,13 @@
 
 .RatingsAndReviews__footer {
 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
   border-radius: 2px;
   padding: 20px;
   border: 1px solid lightgray;
-}
-
-.RatingsAndReviews__footer > * {
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .RatingsAndReviews_footer_ico {

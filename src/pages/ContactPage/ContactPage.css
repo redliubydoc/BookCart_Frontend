@@ -1,0 +1,22 @@
+.ContactPage__container-contact-page-header {
+
+  padding: 60px 0px;
+ 
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+
+  background-color: yellow;
+  border-bottom: 1px solid black;
+}
+
+.ContactPage__container-contact-page-content {
+
+  padding: 50px;
+  background-color: white;
+}
+
+.ContactPage__contact-page-content  {
+  text-align: center;
+}

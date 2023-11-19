@@ -4,7 +4,7 @@ import FilterPanel from "../../components/FilterPanel/FilterPanel";
 import Dropdown from "../../components/Dropdown/Dropdown";
 import Pagination from "../../components/Pagination/Pagination";
 
-import "./Home.css";
+import "./HomePage.css";
 
 function Home() {
 

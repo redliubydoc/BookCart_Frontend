@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
-import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact";
-import Product from "./pages/Product/Product";
+import HomePage from "./pages/HomePage/HomePage";
+import AboutPage from "./pages/AboutPage/AboutPage";
+import ContactPage from "./pages/ContactPage/ContactPage";
+import ProductPage from "./pages/ProductPage/ProductPage";
 
 import "./index.css";
 import RatingsAndReviews from "./components/RatingsAndReviews/RatingsAndReviews";
@@ -14,28 +14,28 @@ const router = createBrowserRouter([
     path: "/",
     element: <>
       <Navbar/>
-      <Home/>
+      <HomePage/>
     </>
   },
   {
     path: "/about",
     element: <>
       <Navbar/>
-      <About/>
+      <AboutPage/>
     </>
   },
   {
     path: "/contact",
     element: <>
       <Navbar/>
-      <Contact/>
+      <ContactPage/>
     </>
   },
   {
     path: "/product/:id",
     element: <>
       <Navbar/>
-      <Product/>
+      <ProductPage/>
     </>
   },
   {

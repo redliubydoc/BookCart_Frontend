@@ -28,8 +28,10 @@ function RatingsAndReviews({ id, isbn }) {
       </div>
       {(reviews.length > 0) && <ReviewList reviews={reviews}/>}
       {(reviews.length > 0) &&
-        <div className="RatingsAndReviews__footer link-typ-1">
-          <Link to={`/product/${isbn}/review`}>Show All Reviews</Link>
+        <div className="RatingsAndReviews__footer">
+          <span className="link-typ-1">
+            <Link to={`/product/${isbn}/review`}>Show All Reviews</Link>
+          </span>
         </div>
       }
     </div>
